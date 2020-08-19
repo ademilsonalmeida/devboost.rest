@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "c6fMCzXuUId4s0vrPmeoeqIi+zlqcVLFlbfxZ3NqTTNMRBgx5g6axtrbfmTW3amTlmlWjpXoxH2qTc7S4JyHsw==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\Repos\\DevBoost.REST\\src\\DevBoost.REST.Domain\\DevBoost.REST.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ademilson.almeida\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

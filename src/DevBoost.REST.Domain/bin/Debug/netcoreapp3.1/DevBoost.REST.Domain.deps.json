@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DevBoost.REST.Domain/1.0.0": {
+        "runtime": {
+          "DevBoost.REST.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DevBoost.REST.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

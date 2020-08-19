@@ -1,0 +1,12 @@
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Services\bin\Debug\netcoreapp3.1\DevBoost.REST.Services.deps.json
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Services\bin\Debug\netcoreapp3.1\DevBoost.REST.Services.dll
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Services\bin\Debug\netcoreapp3.1\DevBoost.REST.Services.pdb
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Services\bin\Debug\netcoreapp3.1\DevBoost.REST.Domain.dll
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Services\bin\Debug\netcoreapp3.1\DevBoost.REST.Domain.pdb
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Services\obj\Debug\netcoreapp3.1\DevBoost.REST.Services.csprojAssemblyReference.cache
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Services\obj\Debug\netcoreapp3.1\DevBoost.REST.Services.AssemblyInfoInputs.cache
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Services\obj\Debug\netcoreapp3.1\DevBoost.REST.Services.AssemblyInfo.cs
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Services\obj\Debug\netcoreapp3.1\DevBoost.REST.Services.csproj.CoreCompileInputs.cache
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Services\obj\Debug\netcoreapp3.1\DevBoost.REST.Services.csproj.CopyComplete
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Services\obj\Debug\netcoreapp3.1\DevBoost.REST.Services.dll
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Services\obj\Debug\netcoreapp3.1\DevBoost.REST.Services.pdb
