@@ -14,8 +14,6 @@ C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\bin\Debug\netcoreapp3.1\DevBoos
 C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\obj\Debug\netcoreapp3.1\DevBoost.REST.API.csprojAssemblyReference.cache
 C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\obj\Debug\netcoreapp3.1\DevBoost.REST.API.AssemblyInfoInputs.cache
 C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\obj\Debug\netcoreapp3.1\DevBoost.REST.API.AssemblyInfo.cs
-C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\obj\Debug\netcoreapp3.1\DevBoost.REST.API.csproj.CoreCompileInputs.cache
-C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\obj\Debug\netcoreapp3.1\DevBoost.REST.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\obj\Debug\netcoreapp3.1\DevBoost.REST.API.RazorTargetAssemblyInfo.cache
 C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\obj\Debug\netcoreapp3.1\DevBoost.REST.API.csproj.CopyComplete
 C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\obj\Debug\netcoreapp3.1\staticwebassets\DevBoost.REST.API.StaticWebAssets.Manifest.cache
@@ -23,3 +21,12 @@ C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\obj\Debug\netcoreapp3.1\staticw
 C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\obj\Debug\netcoreapp3.1\DevBoost.REST.API.dll
 C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\obj\Debug\netcoreapp3.1\DevBoost.REST.API.pdb
 C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\obj\Debug\netcoreapp3.1\DevBoost.REST.API.genruntimeconfig.cache
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\obj\Debug\netcoreapp3.1\DevBoost.REST.API.csproj.CoreCompileInputs.cache
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\obj\Debug\netcoreapp3.1\DevBoost.REST.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\obj\Debug\netcoreapp3.1\DevBoost.REST.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

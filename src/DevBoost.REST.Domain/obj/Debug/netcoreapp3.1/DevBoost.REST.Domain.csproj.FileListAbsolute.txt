@@ -1,7 +1,6 @@
 C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Domain\bin\Debug\netcoreapp3.1\DevBoost.REST.Domain.deps.json
 C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Domain\bin\Debug\netcoreapp3.1\DevBoost.REST.Domain.dll
 C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Domain\bin\Debug\netcoreapp3.1\DevBoost.REST.Domain.pdb
-C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Domain\obj\Debug\netcoreapp3.1\DevBoost.REST.Domain.csprojAssemblyReference.cache
 C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Domain\obj\Debug\netcoreapp3.1\DevBoost.REST.Domain.AssemblyInfoInputs.cache
 C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Domain\obj\Debug\netcoreapp3.1\DevBoost.REST.Domain.AssemblyInfo.cs
 C:\Dev\Repos\DevBoost.REST\src\DevBoost.REST.Domain\obj\Debug\netcoreapp3.1\DevBoost.REST.Domain.csproj.CoreCompileInputs.cache

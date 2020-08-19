@@ -1,16 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using AutoMapper;
 using DevBoost.REST.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace DevBoost.REST.API
 {
@@ -27,6 +21,9 @@ namespace DevBoost.REST.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton(new UserService());
+            services.AddAutoMapper(typeof(Startup));
+
+            services.AddSwaggerGen();
 
             services.AddControllers();
         }
@@ -44,6 +41,12 @@ namespace DevBoost.REST.API
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Devboost API - v1");
+            });
 
             app.UseEndpoints(endpoints =>
             {

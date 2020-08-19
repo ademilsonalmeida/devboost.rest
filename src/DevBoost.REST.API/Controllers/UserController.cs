@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using AutoMapper;
+using DevBoost.REST.API.Models;
+using DevBoost.REST.API.ViewModels;
 using DevBoost.REST.Domain.Models;
 using DevBoost.REST.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -11,42 +14,44 @@ namespace DevBoost.REST.API.Controllers
     public class UserController : ControllerBase
     {
         private readonly UserService _userService;
+        private readonly IMapper _mapper;
 
-        public UserController(UserService userService)
+        public UserController(UserService userService, IMapper mapper)
         {
             _userService = userService;
+            _mapper = mapper;
         }
 
         // GET: api/<UserController>
         [HttpGet]
-        public IEnumerable<User> Get()
+        public IEnumerable<UserViewModel> Get()
         {
-            return _userService.GetAll();            
+            return _mapper.Map<IEnumerable<UserViewModel>>(_userService.GetAll());            
         }
 
         // GET api/<UserController>/5
         [HttpGet("{id}")]
-        public User Get(Guid id)
+        public UserViewModel Get(Guid id)
         {
-            return _userService.GetById(id);
+            return _mapper.Map<UserViewModel>(_userService.GetById(id));
         }
 
         // POST api/<UserController>
         [HttpPost]
-        public User Post([FromBody] User user)
+        public UserViewModel Post([FromBody] CreateUserViewModel userViewModel)
         {
-            _userService.Add(user);
+            var user = _userService.Add(_mapper.Map<User>(userViewModel));
 
-            return user;
+            return _mapper.Map<UserViewModel>(user);
         }
 
         // PUT api/<UserController>/5
         [HttpPut("{id}")]
-        public User Put(Guid id, [FromBody] User user)
+        public UserViewModel Put(Guid id, [FromBody] EditUserViewModel userViewModel)
         {
-            _userService.Update(id, user);
+            var user = _userService.Update(id, _mapper.Map<User>(userViewModel));
 
-            return user;
+            return _mapper.Map<UserViewModel>(user);
         }
 
         // DELETE api/<UserController>/5
